@@ -1,8 +1,8 @@
 package controllers
 
-import javax.inject._
-import play.api._
 import play.api.mvc._
+
+import javax.inject._
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -10,6 +10,15 @@ import play.api.mvc._
  */
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
+  //  val db: Database = Database.forConfig("postgres")
+  //  try {
+  //    //#ddl
+  //    //#ddl
+  //    Await.result(
+  //      //#ddl
+  //      //#ddl
+  //      , Duration.Inf)
+  //  }
 
   /**
    * Create an Action to render an HTML page.

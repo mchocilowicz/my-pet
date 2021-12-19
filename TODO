@@ -1,0 +1,34 @@
+Idea is to create online version of pet healthy book
+
+Phase One :
+    - create entity based on pet(dog) healthy book
+    - add veterynarias and users entity
+    - create post/get api
+    - authentication
+    - add dictionaries
+    - refactor tables if possible
+    ...
+    - create dto for mobile/fe
+
+Phase Two:
+    - populate data
+    - create schedulers to create notifications
+    - add notifications
+    - create fe or mobile
+
+Phase Three:
+    - store images
+    - add blood result tests
+    - operation details
+    - weight control
+    - ...
+
+Phase Four:
+    - ??
+
+Phase Five:
+    - calculate possible illness for dog by type / gender / year
+
+Phase Six:
+    - statistics
+
